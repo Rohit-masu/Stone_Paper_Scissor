@@ -1,0 +1,103 @@
+   * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #E2E8CE;
+            color: black;
+        }
+
+        body {
+            background-color: #262626;
+            color: white;
+            text-align: center;
+        }
+
+        .scoreBoard {
+            margin: 20px auto;
+            border: 3px solid white;
+            color: white;
+            border-radius: 6px;
+            padding: 20px;
+            width: 30vmin;
+            font-size: 1.5rem;
+            position: relative;
+        }
+
+        .badge {
+            background-color: #FF1B1C;
+            font-size: 1.13rem;
+            padding: 2px 4px;
+            border-radius: 4px;
+            color: antiquewhite;
+        }
+
+        #user_label {
+            position: absolute;
+            top: 18px;
+            left: -24px;
+        }
+
+        #comp_label {
+            position: absolute;
+            top: 18px;
+            right: -24px;
+        }
+
+        .game {
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+            margin-bottom: 50px;
+        }
+
+        .game img {
+            height: 20vh;
+            cursor: pointer;
+            object-fit: ;
+        }
+
+        img:hover {
+            filter: drop-shadow(0 0 12px rgba(255, 255, 255, 0.2));
+        }
+        
+        .action {
+            font-size: 1.3rem;
+            background-color:  #1E555C;
+            border-radius: 6px;
+            display: inline-block;
+            padding: 8px 14px;
+            cursor: pointer;
+            /* transition: all 0.2s ease; */
+        }
+        .action:hover{
+            box-shadow:0 0 12px rgba(18, 135, 104, 0.3);
+        } 
+        .action:active{
+            opacity: 0.8;
+        }
+        
+        .restart_btn{
+           background-color: black;
+           color: #F8F8F8;
+           margin: 40px;
+           font-size: 15px;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .restart_btn:hover{
+            background-color:  #E2E8CE;
+            color: #000100;
+            font-weight: 500;
+            outline: 1px solid white;
+            box-shadow:0 0 12px rgba(255, 255, 255, 0.3);;
+        }
+        .restart_btn:active{
+            opacity: 0.8;
+        }

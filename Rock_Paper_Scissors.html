@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+<link rel="stylesheet" href="rockPaperScissor.css">
+</head>
+
+<body>
+    <header>
+        <h2>Rock Paper & Scissors</h2>
+    </header>
+    <main>
+        <div class="scoreBoard">
+            <div id="user_label" class="badge">User</div>
+            <div id="comp_label" class="badge">Comp</div>
+            <span id="user_score">0</span>
+            <span>:</span>
+            <span id="comp_score">0</span>
+        </div>
+        <div class="game">
+            <img class="choice" id="rock" src="rock.png" alt="rock">
+
+            <img class="choice" id="paper" src="paper.png" alt="paper">
+
+            <img class="choice" id="scissor" src="scissor.png" alt="scissor">
+        </div>
+
+        <div class="action_box">
+            <p class="action">Make Your Move</p>
+        </div>
+
+        <button class="restart_btn">Restart</button>
+    </main>
+    <script src="rockPaperScissor.js"></script>
+</body>
+
+</html>
